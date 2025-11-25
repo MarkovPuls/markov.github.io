@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <title>Markov Mark – QA Automation Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVSCNVHEM7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LVSCNVHEM7');
+  </script>
+  
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -202,7 +212,8 @@
         <span>LinkedIn: <a href="https://linkedin.com/in/markmarkov" target="_blank">https://linkedin.com/in/markmarkov</a></span>
       </div>
 
-      <a class="btn" href="resume.pdf" target="_blank">
+      <a class="btn" href="resume.pdf" target="_blank"
+         onclick="gtag('event', 'resume_download', { 'event_category': 'resume', 'event_label': 'main_card' });">
         Скачать резюме (PDF)
       </a>
     </section>
